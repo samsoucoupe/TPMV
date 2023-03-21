@@ -1,0 +1,62 @@
+Pour créer une extension web qui affiche l’état de présence d’un streamer et qui propose un lien vers sa chaîne Twitch, voici les étapes que vous pouvez suivre :
+
+Déterminez les informations dont vous avez besoin : Pour créer cette extension, vous aurez besoin d’un identifiant de streamer Twitch pour vérifier son état de présence (en ligne ou hors ligne) et pour créer un lien vers sa chaîne Twitch.
+
+Concevez l’interface utilisateur : Vous pouvez créer une interface utilisateur simple avec deux icônes (en ligne et hors ligne) pour afficher l’état de présence du streamer et un bouton pour accéder à sa chaîne Twitch. Vous pouvez utiliser HTML, CSS et JavaScript pour créer l’interface utilisateur.
+
+Récupérez l’état de présence du streamer : Vous pouvez utiliser l’API Twitch pour récupérer l’état de présence du streamer en utilisant son identifiant Twitch. Vous pouvez utiliser une bibliothèque JavaScript comme Axios pour effectuer des requêtes API.
+
+Affichez l’état de présence du streamer : Vous pouvez mettre à jour l’icône correspondante (en ligne ou hors ligne) en fonction de l’état de présence du streamer.
+
+Ajoutez un lien vers la chaîne Twitch du streamer : Vous pouvez créer un lien vers la chaîne Twitch du streamer en utilisant son identifiant Twitch. Vous pouvez utiliser la balise <a> HTML pour créer un lien.
+
+Testez l’extension : Vous pouvez tester l’extension en installant et en activant l’extension dans votre navigateur web et en vérifiant si l’état de présence du streamer est correctement affiché.
+
+Déployez l’extension : Si vous êtes satisfait de l’extension, vous pouvez la déployer dans le magasin d’extensions de votre navigateur web pour que les autres utilisateurs puissent l’installer et l’utiliser.
+
+
+
+
+Vous avez raison, pour créer une extension Chrome, vous avez besoin de plusieurs fichiers de configuration et de code pour différents aspects de l’extension. Voici une liste des fichiers que vous devez créer pour votre extension:
+
+images/ : Un dossier qui contient toutes les images que vous souhaitez utiliser dans votre extension.
+
+background.js : Un fichier JavaScript qui contient du code pour l’arrière-plan de l’extension. Cela peut inclure du code pour interagir avec l’API Twitch et pour gérer les notifications.
+
+jsconf.json : Un fichier de configuration JSON qui contient les autorisations nécessaires pour l’extension, telles que l’autorisation d’accéder à l’API Twitch.
+
+manifest.json : Un fichier de configuration JSON qui définit les propriétés de l’extension, telles que le nom de l’extension, la version, l’icône et les pages HTML associées.
+
+popup.html : Une page HTML qui s’affiche lorsque l’utilisateur clique sur l’icône de l’extension. Cette page peut inclure des boutons pour accéder à vos réseaux sociaux et des informations sur votre chaîne Twitch.
+
+popup.js : Un fichier JavaScript qui contient du code pour la page popup. Cela peut inclure du code pour afficher les informations de diffusion en direct de Twitch et pour interagir avec l’API Twitch.
+
+Une fois que vous avez créé tous ces fichiers, vous pouvez les compresser dans un fichier ZIP et le télécharger sur le Chrome Web Store pour que les utilisateurs puissent installer et utiliser votre extension.
+
+
+
+
+
+Créer un fichier constants.js qui contient toutes les constantes utilisées dans l’extension, comme les URLs des images et les clés d’API Twitch.
+
+Créer un fichier popup.html qui affiche la page popup de l’extension. Ce fichier inclura les liens vers les fichiers CSS et JavaScript nécessaires.
+
+Créer un fichier popup.css qui contient les styles CSS appliqués à la page popup.
+
+Créer un fichier popup.js qui contient le code JavaScript pour la page popup, y compris les appels à l’API Twitch et l’affichage des informations de diffusion en direct.
+
+Créer un fichier background.js qui contient le code pour l’arrière-plan de l’extension, y compris la gestion des notifications et l’interaction avec l’API Twitch.
+
+Créer un fichier jsconf.json qui contient les autorisations nécessaires pour l’extension, telles que l’accès à l’API Twitch.
+
+Créer un fichier manifest.json qui définit les propriétés de l’extension, comme le nom, la version, les icônes, la page popup, l’arrière-plan et les autorisations.
+
+Voici donc l’ordre de création des fichiers :
+
+constants.js
+popup.html
+popup.css
+popup.js
+background.js
+jsconf.json
+manifest.json

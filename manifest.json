@@ -1,0 +1,22 @@
+{
+    "name": "TPMV Live Alerts",
+    "description": "Rejoins nous en live à tout moment !",
+    "version": "0.3.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "/images/tpmv.png",
+        "32": "/images/tpmv.png",
+        "48": "/images/tpmv.png",
+        "128": "/images/tpmv.png"
+    },
+    "permissions": [
+        "alarms",
+        "notifications"
+    ]
+}

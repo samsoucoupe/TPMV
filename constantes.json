@@ -1,0 +1,33 @@
+{
+  "Boumi": {
+    "State": false,
+    "Social-link": {
+      "Twitch": "https://www.twitch.tv/boumi",
+      "Discord": "https://discord.gg/tpmv-gaming",
+      "StreamLabs": "https://streamlabs.com/boumi/tip"
+    }
+
+  },
+  "vinya_kitsuny": {
+
+    "State": false,
+    "Social-link":{
+      "Twitch": "https://www.twitch.tv/vinya_kitsuny",
+      "Discord": "https://discord.gg/tpmv-gaming",
+      "Instagram": "https://www.instagram.com/vinya_kitsuny",
+      "Twitter": "https://www.twitter.com/vinya_kitsuny",
+      "Utip": "https://www.utip.io/VinyaBLD"
+    }
+  },
+  "samsoucoupe": {
+    "State": false,
+    "Social-link": {
+      "Twitch": "https://www.twitch.tv/samsoucoupe",
+      "Discord": "https://discord.gg/tpmv-gaming",
+      "Instagram": "https://www.instagram.com/samsoucoupe",
+      "Twitter": "https://www.twitter.com/samsoucoupe",
+      "Utip": "https://www.utip.io/samsoucoupe"
+    }
+  }
+
+}
